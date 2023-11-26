@@ -1,5 +1,6 @@
 from strategies import FourStrategy
 
+# Player class to represent a player's holdings and "spot" in the game
 class Player:
     def __init__(self, name, players, position) -> None:
         self.name = name

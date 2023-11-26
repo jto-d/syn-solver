@@ -2,8 +2,6 @@ import numpy as np
 from game import Game
 import time
 
-
-
 card_ranks = list(range(0, 13))
 
 actions = ['swap', 'stay']
